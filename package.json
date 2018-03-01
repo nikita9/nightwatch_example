@@ -2,6 +2,7 @@
   "name": "nightwatch_example",
   "version": "0.0.1",
   "scripts": {
+    "runner": "node runner.js",
     "test": "node_modules/nightwatch/bin/nightwatch --env chrome test.js"
   },
   "dependencies": {
